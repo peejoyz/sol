@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <%- include ("../partials/head") %>
+</head>
+
+</html>
+
+<body>
+    <%- include ("../partials/head") %>
+        <%- include ("../partials/nav") %>
+
+            <div class="contbg"></div>
+            <div class="services-breadcrumb">
+                <div class="agile_inner_breadcrumb">
+                    <div class="container">
+                        <ul class="my_short">
+                            <li>
+                                <a style="color: #eee; font-weight: bolder;" href="/">HOME</a>
+                                <i style="color: #eee;">/</i>
+                            </li>
+                            <li style="color: #FFC61A; font-weight: bolder;">CONTACT US</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="contact">
+                <!-- tittle heading -->
+                <h3 class="tittle-c text-center mb-lg-5 mb-sm-4 mb-3" style="margin-top: 20px;">
+                    <span>C</span>ontact
+                    <span>U</span>s
+                </h3>
+                <div class="container">
+                    <!-- //tittle heading -->
+                    <div class="row contact-grids agile-1 mb-5">
+                        <div class="col-sm-4 contact-grid agileinfo-6 mt-sm-0 mt-2">
+                            <div class="contact-grid1 text-center">
+                                <div class="con-ic">
+                                    <i class="fas fa-map-marker-alt rounded-circle"></i>
+                                </div>
+                                <h4 class="font-weight-bold mt-sm-4 mt-3 mb-3">Address</h4>
+                                <p> Harehjellveien 211<br>
+                                    <label>1708 Sarpsborg, Norway.</label>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-sm-4 contact-grid agileinfo-6 my-sm-0 my-4">
+                            <div class="contact-grid1 text-center">
+                                <div class="con-ic">
+                                    <i class="fas fa-phone rounded-circle"></i>
+                                </div>
+                                <h4 class="font-weight-bold"> <img src="call.png" width="30px" style="margin-top: 20px;"> </h4>
+                                <p><br>
+                                    <label> +1 563 562 6339 </label>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-sm-4 contact-grid agileinfo-6">
+                            <div class="contact-grid1 text-center">
+                                <div class="con-ic">
+                                    <i class="fas fa-envelope-open rounded-circle"></i>
+                                </div>
+                                <h4 class="font-weight-bold mt-sm-4 mt-3 mb-3">Email</h4>
+                                <p>
+                                    <a href="">support@solplant.org</a>
+                                    <label>
+                                        <a href=""></a>
+                                    </label>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- form -->
+                        <div class="alert alert-success col-sm-3">
+                        </div>
+
+                            <form action="" method="post" style="margin-bottom: 20px;">
+                                <div class="contact-grids1 w3agile-6">
+                                    <div class="row">
+                                        <div class="col-md-6 col-sm-6 contact-form1 form-group">
+                                            <label class="col-form-label">Name</label>
+                                            <input type="text" class="form-control" name="Name" placeholder="" required="">
+                                        </div>
+                                        <div class="col-md-6 col-sm-6 contact-form1 form-group">
+                                            <label class="col-form-label">E-mail</label>
+                                            <input type="email" class="form-control" name="Email" placeholder=""
+                                                required="">
+                                        </div>
+                                    </div>
+                                    <div class="contact-me animated wow slideInUp form-group">
+                                        <label class="col-form-label">Message</label>
+                                        <textarea name="Message" class="form-control" placeholder=""
+                                            required=""> </textarea>
+                                    </div>
+                                    <div class="contact-form">
+                                        <input type="submit" value="Submit">
+                                    </div>
+                                </div>
+                            </form>
+                            <!-- //form -->
+                </div>
+            </div>
+
+            <%- include ("../partials/footer") %>
+
+
+</body>

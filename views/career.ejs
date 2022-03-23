@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="/css/style2.css" />
+    <%- include ("partials/head") %>
+
+</head>
+
+</html>
+
+<body>
+
+    <%- include ("partials/nav") %> 
+
+        <div class="careerbg"></div>
+        <div class="services-breadcrumb">
+            <div class="agile_inner_breadcrumb">
+                <div class="container">
+                    <ul class="my_short">
+                        <li>
+                            <a style="color: #eee;" href="/">Home</a>
+                            <i style="color: #eee;">/</i>
+                        </li>
+                        <li style="color: #FFC61A;">CAREER</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="container">
+
+            <div class="welcome py-sm-5 py-4">
+                <div class="container py-xl-4 py-lg-2">
+                    <!-- tittle heading -->
+                    <h4 class="tittle-c text-center mb-lg-5 mb-sm-3 mb-3"
+                        style="color: #FFC61A; font-weight: bold; font-family: 'SF Pro Text';">
+                        MAKE THE DIFFERENCE WITH US
+                    </h4>
+                    <!-- //tittle heading -->
+
+                    <div class="row"> 
+                        <div class="col-sm-6 welcome-left">
+                            <h4 class="my-sm-3 my-2" style="font-family: 'SF Pro Text';">We are committed to making a difference to the lives of our
+                                employees, to our
+                                customers, to the environment and to society.
+                                We can offer you an exciting career in a global opportunity with like-minded people who
+                                embrace individual
+                                differences regardless of culture, gender or religion. We reward people on results,
+                                we will also develop and challenge you to make a difference with our work from home
+                                programme.
+                            </h4>
+                            <p style="font-family: 'SF Pro Text'; color: #464646;">
+                                If you are interested in our programme as an ambassador/promoter and a virtual assistant
+                                while working from home
+                                and getting paid kindly register below. After you have registered you will be contacted
+                                by one of our representatives. 
+                            </p>
+                        </div>
+                        <div class="col-sm-6 welcome-right-top mt-lg-0 mt-sm-5 mt-4">
+                            <img src="/ab.jpg" class="img-fluid" alt=" ">
+                        </div>
+                    </div>
+                </div> 
+            </div>
+
+            <%- include ("partials/head2") %> 
+            
+                <form id="form" name="myForm"  class="form" action=""  method="post" enctype="">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <div class="form-group">
+                                <label for="Name">Full Name</label>
+                                <input type="text" name="fullname" id="fullname" class="form-control" placeholder="Full Name" required>
+                            </div>
+                        
+                            <div class="form-group">
+                                <label for="Email">Email</label>
+                                <input type="text" name="email" id="email" class="form-control" placeholder="Email" required>
+                                    <div class="text-center text-danger">
+                                    </div>
+                            </div> 
+                        
+                            <div class="form-group">
+                                <label for="Username">Age</label>
+                                <input type="number" name="age" id="age" class="form-control" placeholder="Age" required>
+
+                            </div>
+                        
+                            <div class="form-group">
+                                <label for="Gender">Gender</label>
+                                <select name="gender" id="gender" class="form-control" required>
+                                    <option></option>
+                                    <option>Male</option>
+                                    <option>Female</option>
+                                </select>
+                               
+                            </div>                       
+                        </div>
+            
+                        <div class="col-sm-6">
+                            <div class="form-group">
+                                <label for="Name">Country</label>
+                                <input type="text" name="country" id="country" class="form-control" placeholder="Country" required>
+
+                            </div>
+                        
+                            <div class="form-group">
+                                <label for="State">State</label>
+                                <input type="text" name="state" id="state" class="form-control" placeholder="State" required>
+                            </div>
+                        
+                            <div class="form-group">
+                                <label for="Address">Address</label>
+                                <input type="text" name="address" id="address" class="form-control" placeholder="Address" required>
+
+                            </div>
+                        
+                            <div class="form-group">
+                                <label for="PHONE NUMBER">Phone Number</label>
+                                <input type="number" name="phone" id="phone" class="form-control" placeholder="Phone" required>
+
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <button type="submit" class="btn btn-info">Register</button>  
+                </form>
+
+                
+
+            <!-- </div><br> -->
+
+            <span style="font-weight:bold; font-size: 25px;"> PLEASE NOTE: SCAM / FRAUD ALERT </span> <br>
+
+            <div style="font-size: 18px; margin-bottom: 30px;"> Any person asking for fee for a job at 
+                Solplant is FRAUD 
+                (e.g., biometric fee, immigration fee, etc.). <br>
+    
+                Jobs at solplant are posted only on our websites.
+    
+                Please apply there. We never charge a fee.
+            </div>
+        </div> 
+
+    <%- include ("partials/footer") %>
+    
+
+</body>

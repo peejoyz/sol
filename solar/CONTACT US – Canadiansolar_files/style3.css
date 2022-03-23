@@ -1,0 +1,36 @@
+form#pardot-form.form p{font-size: 16px;}
+#pardot-form>p:nth-child(2){text-align: center;margin: 0 0 2rem;}
+#pardot-form{position: relative;max-width: 800px;margin: 0 auto;padding-top: 100px;}
+#pardot-form:before{content: '';width: 246px;height: 38px;position: absolute;left: 0;top: 31px;background: url(https://www.canadiansolar.com/wp-content/uploads/2019/11/cropped-1.png) no-repeat;background-size: 100% 100%;}
+#pardot-form p.errors{display: none;}
+#pardot-form .error.no-label{color: #e80000;margin: 0 0 0 10rem;}
+#pardot-form p img{display: none;}
+#pardot-form .form-field{display: inline-block;width: 100%;text-align: left;}
+#pardot-form .form-field.required .field-label{background: url(require.png) no-repeat center right 10px;}
+#pardot-form .form-field.Test_comments .field-label{display: none;}
+#pardot-form .form-field textarea{font-family: NotoSans;width: 100%;border-width: 1px;outline: none;height:150px;padding: 0.2rem 1rem;font-size: 1rem;color: #1b1b1b;border-radius: 4px;resize:none;border-color: #dcd7ca;box-sizing: border-box;}
+#pardot-form .submit{text-align: center;margin: 1em .5em .2em .5em;}
+#pardot-form .submit input{font-size: 1rem;
+    margin-top: 1rem;
+    padding: 0.25rem 1rem;
+    background: none;
+    color: #d00412;
+    border: 1px solid #d00412;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: normal;
+    text-transform: initial;line-height: 30px;}
+.form-field .field-label{width: 150px;display: inline-block;text-align: left;padding: 0;font-size: 16px;font-weight: normal;}
+.form-field input[type=text],.form-field select {
+    border-width: 1px;
+    font-size: 1rem;
+    outline: none;
+    padding: 0.2rem 1rem;
+    height: 40px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    border-color: #dcd7ca;
+    width: calc(100% - 155px)!important;
+    border-style: solid;
+}
+#pardot-form p font{font-family: NotoSans;font-size: 18px;text-align: center;}
